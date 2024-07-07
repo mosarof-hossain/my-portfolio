@@ -23,7 +23,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    margin: 140px;
 }
 .nav-title{
     font-weight: 800px;
@@ -46,7 +46,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 30px 0px 30px;
+    margin: 0px 20px 0px 140px;
     line-break: loose;
 }
 .banner-greeting{
@@ -67,8 +67,8 @@ nav ul{
     width: 450px;
     height: 500px;
 }
-
 .header{
-    background-image: url(assets/images/developer.png);
-    align-items: center;
+    background-image: url('assets/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
