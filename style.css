@@ -11,6 +11,9 @@
 .text-primary{
     color: #FD6E0A;
 }
+*{
+    margin-top: 0%;
+}
 .btn-primary{
     padding: 15px 30px;
     border-radius: 5px;
@@ -23,7 +26,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 140px;
+    margin: 7%;
 }
 .nav-title{
     font-weight: 800px;
@@ -46,7 +49,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 20px 0px 140px;
+    margin: 0px 20px 0px 110px;
     line-break: loose;
 }
 .banner-greeting{
@@ -59,16 +62,24 @@ nav ul{
 }
 .bannerD{
     font-size: 15px;
+    margin-bottom: 35px;
 }
 .banner-content{
     max-width: 500px;
+    
 }
 .banner-image{
     width: 450px;
     height: 500px;
 }
+
+
 .header{
-    background-image: url('assets/images/header_bg.png');
+    background-image: url('assets/images/header_bg.png'), url('assets/images/developer.png');
+    align-items: center;
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right bottom, left center;
+}
+.btn-down{
+    margin-right: 15px;
 }
