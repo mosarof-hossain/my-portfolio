@@ -22,11 +22,22 @@
     color: white;
 }
 
+.bg-secondary{
+    background-color: #FFF8F3;
+}
+.text-common{
+    color: #181818;
+}
+.text-secondary{
+    font-size: 15px;
+    color: #757575;
+}
+
 /* Nav style */
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 7%;
+    margin: 0 7% 0 7%;
 }
 .nav-title{
     font-weight: 800px;
@@ -49,7 +60,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 20px 0px 110px;
+    margin: 0 7% 0 7%;
     line-break: loose;
 }
 .banner-greeting{
@@ -78,8 +89,40 @@ nav ul{
     background-image: url('assets/images/header_bg.png'), url('assets/images/developer.png');
     align-items: center;
     background-repeat: no-repeat;
-    background-position: right bottom, left center;
+    background-position: right bottom, left center; 
 }
 .btn-down{
     margin-right: 15px;
+}
+
+/* about section design */
+.about{
+    margin: 90px 200px 0px 200px;
+    padding: 125px 145px 125px 125px;
+}
+.about-block{
+    background-color: white;
+    padding: 5px;
+}
+.about-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+.about-content{
+    text-align: justify;
+    margin-top: 5px;
+}
+.about-details{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.about-DH{
+    text-align: center;
+}
+.about-DC{
+    color: #474747;
+    font-weight: bold;
 }
