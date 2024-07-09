@@ -38,6 +38,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 0 7% 0 7%;
+    padding-top: 35px;
 }
 .nav-title{
     font-weight: 800px;
@@ -97,8 +98,8 @@ nav ul{
 
 /* about section design */
 .about{
-    margin: 90px 200px 0px 200px;
-    padding: 125px 145px 125px 125px;
+    margin: 9% 15% 0 15%;
+    padding: 7% 5% 7% 5%;
 }
 .about-block{
     background-color: white;
@@ -125,4 +126,20 @@ nav ul{
 .about-DC{
     color: #474747;
     font-weight: bold;
+}
+.footer{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    padding: 10% 15% 7% 10%; 
+    gap: 10%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    margin-bottom: 5%;
+    padding: 8%;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    border: none;
 }
