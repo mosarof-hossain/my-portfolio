@@ -29,7 +29,7 @@
     color: #181818;
 }
 .text-secondary{
-    font-size: 15px;
+    font-size: 14px;
     color: #757575;
 }
 
@@ -98,7 +98,7 @@ nav ul{
 
 /* about section design */
 .about{
-    margin: 9% 15% 0 15%;
+    margin: 9% 10% 0 10%;
     padding: 7% 5% 7% 5%;
 }
 .about-block{
@@ -143,3 +143,42 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     border-radius: 5px;
     border: none;
 }
+
+.do{
+    margin: 10% 15% 0% 15%;
+    text-align: center;
+}
+
+/* Skill Section Design */
+.skill-container{
+    display: flex;
+    margin: 9% 10% 0 10%;
+    gap: 5%;
+    justify-content: space-around;
+  
+}
+.skill-description{
+    text-align: justify;
+}
+.skill{
+    border: none;
+    border-radius: 1%;
+    box-shadow: 0px 5px 10px 0px rgb(0%, 0%, 6%);
+    padding: 2%;
+}
+.resume{
+    display: flex;
+    gap: 5%;
+    margin: 5% 15% 0% 15%;
+}
+.resume-title{
+    text-align: center;
+    margin-top: 10%;
+}
+/* section img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */ 
+
+
